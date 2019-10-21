@@ -1,0 +1,13 @@
+name: {{globalAppName}}-infrastructure
+runtime: nodejs
+description: Configure the necessary infrastructure to run Chui for {{globalAppName}}.
+template:
+  clusterRegion:
+    description: location in which to spin up the cluster.
+    default: tor1
+  nodeSize:
+    description: The size of the nodes in the node pool Chui will create.
+    default: s-1vcpu-3gb
+  digitalocean:token:
+    description: The digital ocean API token we'll use to create the cluster.
+    secret: true

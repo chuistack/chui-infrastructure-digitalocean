@@ -1,0 +1,12 @@
+{
+    "name": "chui-digitalocean",
+    "devDependencies": {
+        "@types/node": "^8.0.0"
+    },
+    "dependencies": {
+        "@chuistack/chui-lib": "file:../../../chui-lib",
+        "@pulumi/digitalocean": "^0.18.14",
+        "@pulumi/kubernetes": "^1.0.0",
+        "@pulumi/pulumi": "^1.0.0"
+    }
+}
