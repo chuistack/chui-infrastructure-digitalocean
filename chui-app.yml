@@ -1,0 +1,3 @@
+version: 0.1.0
+source: git@github.com:chuistack/chui-infrastructure-digitalocean.git
+type: infrastructure
