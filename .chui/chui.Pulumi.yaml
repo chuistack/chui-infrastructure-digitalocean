@@ -1,6 +1,6 @@
 name: {{globalAppName}}-infrastructure
 runtime: nodejs
-description: Configure the necessary infrastructure to run Chui for {{globalAppName}}.
+description: Deploy a k8s cluster to DigitalOcean for {{globalAppName}}.
 template:
   clusterRegion:
     description: location in which to spin up the cluster.
