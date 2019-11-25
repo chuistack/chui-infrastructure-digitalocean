@@ -4,7 +4,7 @@
         "@types/node": "^8.0.0"
     },
     "dependencies": {
-        "@chuistack/chui-lib": "file:../../../chui-lib",
+        "@chuistack/chui-lib": "^0.1.2",
         "@pulumi/digitalocean": "^0.18.14",
         "@pulumi/kubernetes": "^1.0.0",
         "@pulumi/pulumi": "^1.0.0"
