@@ -1,5 +1,7 @@
 {
-    "name": "chui-digitalocean",
+    "name": "chui-infrastructure-digitalocean",
+    "description": "Creates a k8s cluster on DigitalOcean for a Chui project.",
+    "license": "MIT",
     "devDependencies": {
         "@types/node": "^8.0.0"
     },
