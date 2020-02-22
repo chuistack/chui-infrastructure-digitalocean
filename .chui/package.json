@@ -1,14 +1,17 @@
 {
     "name": "chui-infrastructure-digitalocean",
     "description": "Creates a k8s cluster on DigitalOcean for a Chui project.",
+    "repository": {
+        "url": "https://github.com/chuistack/chui-infrastructure-digitalocean"
+    },
     "license": "MIT",
     "devDependencies": {
-        "@types/node": "^8.0.0"
+        "@types/node": "^13.7.4"
     },
     "dependencies": {
         "@chuistack/chui-lib": "^0.1.2",
-        "@pulumi/digitalocean": "^0.18.14",
-        "@pulumi/kubernetes": "^1.0.0",
-        "@pulumi/pulumi": "^1.0.0"
+        "@pulumi/digitalocean": "^1.6.0",
+        "@pulumi/kubernetes": "^1.5.4",
+        "@pulumi/pulumi": "^1.11.0"
     }
 }
